@@ -18,6 +18,7 @@ Measured on 2026-11-13 with the built-in self-test (`--essai`), in MH/s. Each ra
 |---|---|---|---|---|---|
 | RTX 4090 (400 W) | 1 | Linux | 80.35 | not reported | 27.03 |
 | RTX 5080 (300 W) | 2 | Linux | 77.18 to 78.59 | not reported | 20.48 to 20.95 |
+| RTX 5070 Ti 16 GB (300 W) | 1 | Linux | 62.05 | 63.65 | 16.31 |
 | RTX 4070 Ti SUPER (260 W) | 1 | Linux | 44.29 | not reported | 14.46 |
 | RTX 4070 Ti (210 W) | 1 | Linux | 39.99 | not reported | 12.68 |
 | RTX 5060 Ti 16 GB (150 W) | 3 | Linux | 30.20 to 31.35 | 31.58 to 32.52 | 7.85 to 8.10 |
@@ -102,6 +103,7 @@ Mesurés le 13/11/2026 avec l'essai intégré (`--essai`), en MH/s. Chaque fourc
 |---|---|---|---|---|---|
 | RTX 4090 (400 W) | 1 | Linux | 80,35 | non relevé | 27,03 |
 | RTX 5080 (300 W) | 2 | Linux | 77,18 à 78,59 | non relevé | 20,48 à 20,95 |
+| RTX 5070 Ti 16 Go (300 W) | 1 | Linux | 62,05 | 63,65 | 16,31 |
 | RTX 4070 Ti SUPER (260 W) | 1 | Linux | 44,29 | non relevé | 14,46 |
 | RTX 4070 Ti (210 W) | 1 | Linux | 39,99 | non relevé | 12,68 |
 | RTX 5060 Ti 16 Go (150 W) | 3 | Linux | 30,20 à 31,35 | 31,58 à 32,52 | 7,85 à 8,10 |
