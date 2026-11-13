@@ -16,13 +16,18 @@ Measured on 2026-11-13 with the built-in self-test (`--essai`), in MH/s. Each ra
 
 | Card | Cards tested | System | KEP1, fork-day model | KEP1, model after 200 training steps | RET2, fork-day model |
 |---|---|---|---|---|---|
+| RTX 4090 (400 W) | 1 | Linux | 80.35 | not reported | 27.03 |
+| RTX 5080 (300 W) | 2 | Linux | 77.18 to 78.59 | not reported | 20.48 to 20.95 |
+| RTX 4070 Ti SUPER (260 W) | 1 | Linux | 44.29 | not reported | 14.46 |
+| RTX 4070 Ti (210 W) | 1 | Linux | 39.99 | not reported | 12.68 |
 | RTX 5060 Ti 16 GB (150 W) | 3 | Linux | 30.20 to 31.35 | 31.58 to 32.52 | 7.85 to 8.10 |
 | RTX 3080 Ti | 3 | Windows | 18.67 to 18.76 | 24.99 to 25.77 | 9.30 to 9.43 |
+| RTX 3070 Ti (165 W) | 1 | Linux | 15.36 | not reported | 6.49 |
 | RTX 3080 | 4 | Windows | 14.53 to 15.09 | 20.32 to 21.71 | 7.77 to 7.89 |
 | RTX 3070 | 4 | Windows | 11.26 to 11.32 | 14.66 to 15.01 | 5.51 to 5.64 |
 | RTX 3060 Ti | 7 | Windows | 10.36 to 10.48 | 12.30 to 12.72 | 4.63 to 4.79 |
 
-The trained KEP1 model is a simulated one, shipped inside the miner for the self-test. The power limit is given when it is known. More cards will be added as benchmarks come in. Every figure in this table is a measurement, none is an estimate.
+The trained KEP1 model is a simulated one, shipped inside the miner for the self-test. The power limit is the configured limit, given when it is known. More cards will be added as benchmarks come in. Every figure in this table is a measurement, none is an estimate.
 
 ## Quick start
 
@@ -95,13 +100,18 @@ Mesurés le 13/11/2026 avec l'essai intégré (`--essai`), en MH/s. Chaque fourc
 
 | Carte | Cartes testées | Système | KEP1, modèle du jour du fork | KEP1, modèle après 200 pas d'entraînement | RET2, modèle du jour du fork |
 |---|---|---|---|---|---|
+| RTX 4090 (400 W) | 1 | Linux | 80,35 | non relevé | 27,03 |
+| RTX 5080 (300 W) | 2 | Linux | 77,18 à 78,59 | non relevé | 20,48 à 20,95 |
+| RTX 4070 Ti SUPER (260 W) | 1 | Linux | 44,29 | non relevé | 14,46 |
+| RTX 4070 Ti (210 W) | 1 | Linux | 39,99 | non relevé | 12,68 |
 | RTX 5060 Ti 16 Go (150 W) | 3 | Linux | 30,20 à 31,35 | 31,58 à 32,52 | 7,85 à 8,10 |
 | RTX 3080 Ti | 3 | Windows | 18,67 à 18,76 | 24,99 à 25,77 | 9,30 à 9,43 |
+| RTX 3070 Ti (165 W) | 1 | Linux | 15,36 | non relevé | 6,49 |
 | RTX 3080 | 4 | Windows | 14,53 à 15,09 | 20,32 à 21,71 | 7,77 à 7,89 |
 | RTX 3070 | 4 | Windows | 11,26 à 11,32 | 14,66 à 15,01 | 5,51 à 5,64 |
 | RTX 3060 Ti | 7 | Windows | 10,36 à 10,48 | 12,30 à 12,72 | 4,63 à 4,79 |
 
-Le modèle KEP1 entraîné est un modèle simulé, fourni dans le mineur pour l'essai. La limite de puissance est indiquée quand elle est connue. D'autres cartes seront ajoutées à mesure que les bancs arrivent. Chaque chiffre de ce tableau est une mesure, aucun n'est une estimation.
+Le modèle KEP1 entraîné est un modèle simulé, fourni dans le mineur pour l'essai. La limite de puissance est la limite réglée, indiquée quand elle est connue. D'autres cartes seront ajoutées à mesure que les bancs arrivent. Chaque chiffre de ce tableau est une mesure, aucun n'est une estimation.
 
 ## Démarrage rapide
 
